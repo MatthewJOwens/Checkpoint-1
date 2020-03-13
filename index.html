@@ -13,31 +13,38 @@
 
 <body>
 
-  <header>
+  <header class="header-bg">
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand navbar-btn-pink p-3" href="#"><b>Checkpoint</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link" href="#">Links</a>
+          <a class="nav-item nav-link active navbar-btn-pink mx-2" href="#">Home <span
+              class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link navbar-btn-pink mx-2" href="#">Features</a>
+          <a class="nav-item nav-link navbar-btn-pink mx-2" href="#">Pricing</a>
+          <a class="nav-item nav-link navbar-btn-pink" href="#">Links</a>
         </div>
       </div>
     </nav>
 
     <div class="first-element container">
       <div class="row">
-        <div class="col-12 col-md-6 order-1 order-md-2"></div>
-        <div class="col-12 col-md-6 order-2 order-md-1">
-          <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A delectus officiis iste
-            exercitationem totam nobis, tenetur ea perspiciatis voluptas dolores aut facere numquam doloremque.
+        <div class="col-12 col-md-6 order-1 order-md-2 p-5">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="560" height="315"
+              src="https://www.youtube.com/embed/CYutF8qr7AY"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 order-2 order-md-1 align-self-end p-5">
+          <p class="lorem text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. A delectus officiis
+            iste exercitationem totam nobis, tenetur ea perspiciatis voluptas dolores aut facere numquam doloremque.
             Accusantium sapiente minus exercitationem ullam veniam?</p>
-          <button class="btn btn-purple-gradient">Check it out</button>
+          <button class="btn btn-purple-gradient text-white">Check it out</button>
         </div>
       </div>
     </div>

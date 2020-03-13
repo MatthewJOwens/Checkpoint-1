@@ -1,0 +1,14 @@
+.navbar-btn-pink {
+  background-color: #FF0994;
+}
+
+.btn-purple-gradient {
+  background: rgb(67, 2, 111);
+  background: linear-gradient(45deg, rgba(67, 2, 111, 1) 0%, rgba(122, 7, 154, 1) 60%, rgba(231, 192, 247, 1) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+.header-bg {
+  background: rgb(115, 2, 192);
+  background: linear-gradient(202deg, rgba(115, 2, 192, 1) 50%, rgba(255, 255, 255, 1) 50%);
+  color: white;
+}
