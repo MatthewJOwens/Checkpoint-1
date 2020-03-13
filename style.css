@@ -40,3 +40,14 @@
 .mb-minus-9 {
   margin-bottom: -7rem!important;
 }
+
+.row-break {
+  width: 100%;
+  height: 5px;
+  margin-top: 10rem!important;
+  margin-bottom: 5rem!important;
+}
+
+.zind-1 {
+  z-index: 1;
+}
